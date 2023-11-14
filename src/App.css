@@ -36,3 +36,94 @@
     transform: rotate(360deg);
   }
 }
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Apply styles to the entire page */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+
+/* Navbar css */
+.navbar {
+  background-color: #282828;
+  padding: 5px 0;
+  color: white;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #008000; /* Green color on hover */
+ 
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+
+/* Home page css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #373f4a; /* Add this line to set the background color to black */
+}
+
+.line1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white; /* Optional: Set the text color to white or any other color */
+  /* Add any additional styling for the first line */
+}
+
+.line2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white; /* Optional: Set the text color to white or any other color */
+  /* Add any additional styling for the second line */
+}
+
+.rectangular-box {
+  width: 500px; /* Set the width of the rectangular box */
+  height: 50px; /* Set the height of the rectangular box */
+  background-color: #3d454e; /* Set the background color of the rectangular box */
+  margin-top: 10px; /* Adjust the margin-top as needed */
+}
