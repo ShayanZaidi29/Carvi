@@ -42,6 +42,37 @@ body, html {
   padding: 0;
 }
 
+/* Home page css */
+
+.overlay {
+  background-image: url('../src/images/bg.jpg');
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* Text color */
+}
+
+.line1{
+  font-weight: bold;
+  font-size: 40px;
+  margin: 10px 0; /* Adjust spacing between lines if needed */
+  align-content: center;
+  position: relative;
+  bottom:5ch;
+}
+.line2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px 0; /* Adjust spacing between lines if needed */
+  margin-left:23%;
+  position: relative;
+  bottom:6ch;
+}
 
 
 /* Apply styles to the entire page */
@@ -92,38 +123,4 @@ body {
 
 .profile-name {
   font-weight: bold;
-}
-
-
-/* Home page css */
-
-.home-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  font-family: 'Arial', sans-serif;
-  background-color: #373f4a; /* Add this line to set the background color to black */
-}
-
-.line1 {
-  font-weight: bold;
-  font-size: 30px;
-  color: white; /* Optional: Set the text color to white or any other color */
-  /* Add any additional styling for the first line */
-}
-
-.line2 {
-  font-weight: bold;
-  font-size: 30px;
-  color: white; /* Optional: Set the text color to white or any other color */
-  /* Add any additional styling for the second line */
-}
-
-.rectangular-box {
-  width: 500px; /* Set the width of the rectangular box */
-  height: 50px; /* Set the height of the rectangular box */
-  background-color: #3d454e; /* Set the background color of the rectangular box */
-  margin-top: 10px; /* Adjust the margin-top as needed */
 }
